@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
-
 gemspec
+
+gem 'mongoid', github: 'mongoid/mongoid'
 
 group :test do
   gem 'rake'
